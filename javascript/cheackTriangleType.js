@@ -1,4 +1,5 @@
-const checkTriangleType = (a, b, c) => {
+const checkTriangleType = (a, b, c) => 
+{
     if(a===b && b===c && a==c) return "Equilateral Triangle";
     if(a===b || b===c || a===c) return "Isosceles Triangle";
     return "Scalene Triangle";
